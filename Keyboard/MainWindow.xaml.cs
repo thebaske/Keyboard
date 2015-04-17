@@ -12,170 +12,193 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows;
+
+
 
 namespace Keyboard
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+    public delegate void SetLetter(object sender);
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            
         }
         
         //Testing the github
+        //Testing github again with GitGui
+        //Testing git hub gui
+
+        
+        
+        private static string LetterManipulator(object sender)
+        {
+            Button send = sender as Button;
+
+            return send.Content.ToString().ToLower();
+        }
+        
 
         private void txtBoxCursor_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+            
             System.Windows.Clipboard.SetText(txtBoxCursor.Text);
         }
 
         #region Letters of keyboard events
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("q");
+            
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
-
+       
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("w");
+             
+
+            txtBoxCursor.AppendText(LetterManipulator(sender));
+            
         }
 
         
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("e");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("r");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("t");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("y");
+            txtBoxCursor.AppendText(LetterManipulator(sender)); ;
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("u");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("i");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("o");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("p");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_10(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("a");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_11(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("s");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_12(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("d");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_13(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("f");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_14(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("g");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_15(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("h");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("j");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
 
         }
 
         private void Button_Click_17(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("k");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
 
         }
 
         private void Button_Click_18(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("l");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
 
         }
 
         private void Button_Click_19(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("z");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_20(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("x");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_21(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("c");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_22(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("v");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_23(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("b");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_24(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("n");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_25(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText("m");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         }
 
         private void Button_Click_26(object sender, RoutedEventArgs e)
         {
-            txtBoxCursor.AppendText(" ");
+            txtBoxCursor.AppendText(LetterManipulator(sender));
         } 
         #endregion
-        //TODO: Make all keyboard letters as one method
-
+        
         //Delete character
         private void Button_Click_27(object sender, RoutedEventArgs e)
         {
@@ -205,6 +228,13 @@ namespace Keyboard
         private void Button_Click_28(object sender, RoutedEventArgs e)
         {
             txtBoxCursor.Clear();
+        }
+
+       
+
+        private void Grid_TextInput(object sender, System.Windows.Input.TextCompositionEventArgs e)
+        {
+
         }
 
         
