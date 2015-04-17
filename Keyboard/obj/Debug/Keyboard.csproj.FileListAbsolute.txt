@@ -1,0 +1,13 @@
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.exe.config
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.exe
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.pdb
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.csprojResolveAssemblyReference.cache
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\MainWindow.baml
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\MainWindow.g.cs
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\App.g.cs
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard_MarkupCompile.cache
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.g.resources
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.Properties.Resources.resources
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.csproj.GenerateResource.Cache
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.exe
+c:\users\nikola\documents\visual studio 2013\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.pdb
